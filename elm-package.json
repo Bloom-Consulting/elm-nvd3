@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.2",
     "summary": "Elm nvd3 basic wrapper",
     "repository": "https://github.com/Bloom-Consulting/elm-nv3d.git",
     "license": "BSD3",
