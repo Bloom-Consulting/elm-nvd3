@@ -1,7 +1,7 @@
 {
     "version": "1.0.2",
     "summary": "Elm nvd3 basic wrapper",
-    "repository": "https://github.com/Bloom-Consulting/elm-nv3d.git",
+    "repository": "https://github.com/Bloom-Consulting/elm-nvd3.git",
     "license": "BSD3",
     "source-directories": [
         "src"
