@@ -1,6 +1,6 @@
 //import Maybe, Native.Scheduler //
 
-var _elm_lang$nv3d$Native_Nv3d = function() {
+var _elm_lang$nv3d$Native_Nvd3 = function() {
 
 function stackedAreaChart(options) {
     var chart = 

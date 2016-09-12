@@ -1,5 +1,5 @@
 
-module Nv3d exposing 
+module Nvd3 exposing 
   ( Chart
   , ChartData
   , ChartOptions
@@ -9,7 +9,7 @@ module Nv3d exposing
   , renderChart
   )
 
-{-| The Nv3d wrapper 
+{-| The Nvd3 wrapper 
 
 # Types
 @docs Chart, ChartData, ChartOptions
@@ -30,7 +30,7 @@ module Nv3d exposing
 
 import Task
 import Json.Decode as Json
-import Native.Nv3d
+import Native.Nvd3
 
 {-| An immutable type representing a Chart. -}
 type Chart = Chart
