@@ -50,16 +50,16 @@ type alias ChartOptions data number1 =
 
 {-| Create a Stacked Area Chart -}
 stackedAreaChart : ChartOptions data number -> Chart
-stackedAreaChart = Native.Nv3d.stackedAreaChart
+stackedAreaChart = Native.Nvd3.stackedAreaChart
 
 {-| Sets the associated tag and data of a ChartData -}
 setChartData : String -> data -> ChartData
-setChartData = Native.Nv3d.setChartData
+setChartData = Native.Nvd3.setChartData
 
 {-| Update the associated data of a ChartData -}
 updateData : ChartData -> data -> ChartData
-updateData = Native.Nv3d.updateData
+updateData = Native.Nvd3.updateData
 
 {-| Render a Chart with the ChartData -}
 renderChart : ChartData -> Chart -> Chart
-renderChart = Native.Nv3d.renderChart
+renderChart = Native.Nvd3.renderChart

@@ -1,6 +1,6 @@
 //import Maybe, Native.Scheduler //
 
-var _elm_lang$nv3d$Native_Nvd3 = function() {
+var _elm_lang$nvd3$Native_Nvd3 = function() {
 
 function stackedAreaChart(options) {
     var chart = 
@@ -11,9 +11,9 @@ function stackedAreaChart(options) {
         // Tooltips which show all data point
         .useInteractiveGuideline(options.useInteractiveGuideLine)
         //Let's move the y-axis to the right side.
-        .rightAlignYAxis(options.rightAlignYAxis)      
+        .rightAlignYAxis(options.rightAlignYAxis)
         //Allow user to choose 'Stacked', 'Stream', 'Expanded' mode.
-        .showControls(true)       
+        .showControls(true)
 
 /*
         .margin({right: 100})
